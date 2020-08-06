@@ -1,6 +1,14 @@
 ## Template
 
-Esse template foi construído com ReactJS. Foram utilizados componentes funcionais e o template está preparado para o uso de StyledCOmponents.
+Este é um template em branco para a construção de aplicações ReactJS.
+
+### Features
+
+- Functional Components
+- 💅🏾 Styled Components
+
+
+## Instalação
 
 ### `git clone`
 
