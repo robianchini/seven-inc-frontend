@@ -5,7 +5,8 @@ Este é um template em branco para a construção de aplicações ReactJS.
 ### Features
 
 - Functional Components
-- 💅🏾 Styled Components
+- Styled Components
+- Axios para conexão com API
 
 
 ## Instalação
