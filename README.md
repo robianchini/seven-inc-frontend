@@ -1,6 +1,6 @@
-## Template
+## SevenInc
 
-Este é um template em branco para a construção de aplicações ReactJS.
+Esta aplicação foi desenvolvida em ReactJS.
 
 ### Features
 
@@ -8,8 +8,15 @@ Este é um template em branco para a construção de aplicações ReactJS.
 - Styled Components
 - Axios para conexão com API
 
+## Para ver o resultado final
 
-## Instalação
+Para ver a aplicação em funcionamento, acesse https://seven-inc.herokuapp.com/
+
+Usuário: admin
+Senha: abc123
+
+
+## Para testar no seu computador
 
 ### `git clone`
 
@@ -18,3 +25,5 @@ Clone o projeto para obter uma cópia local no seu computador.
 ### `yarn`
 
 Execute o comando para instalar as dependências do projeto.
+
+### `yarn start`
