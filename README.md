@@ -1,19 +1,22 @@
 ## SevenInc
 
-Esta aplicação foi desenvolvida em ReactJS.
+Esta aplicação foi desenvolvida em ReactJS para o processo seletivo da Seven.
+
+![screencapture-seven-inc-herokuapp-2020-09-10-15_34_44](https://user-images.githubusercontent.com/35143346/92782260-32fa1a80-f37b-11ea-8ca2-8326d6a690bc.png)
 
 ### Features
 
-- Functional Components
-- Styled Components
-- Axios para conexão com API
+- Sistema de autenticação 
+- Listagem de funcionários
+- Criação de novo funcionário
+- Edição de um funcionário
+- Remoção de um funcionário
 
 ## Para ver o resultado final
 
 Para ver a aplicação em funcionamento, acesse https://seven-inc.herokuapp.com/
 
-Usuário: admin
-Senha: abc123
+Usuário: admin / Senha: abc123
 
 
 ## Para testar o código como desenvolvedor
