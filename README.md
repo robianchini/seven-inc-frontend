@@ -27,7 +27,7 @@ Clone o projeto do backend e siga as instruções do repositório: https://githu
 
 ### `git clone`
 
-Clone o projeto para obter uma cópia local no seu computador.
+Clone este repositório para obter uma cópia local no seu computador.
 
 ### `yarn`
 
