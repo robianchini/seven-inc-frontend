@@ -43,6 +43,7 @@ export const CardEmp = styled.div`
     font-size: 13px;
     margin: 0px;
     width: 180px;
+    font-weight: normal;
   }
 `
 
@@ -64,12 +65,12 @@ export const EditForm = styled.div`
 
 export const Label = styled.label`
   font-size: 12px;
-  color: #444;
+  color: #34495e;
 `
 
 export const SalaryLabel = styled.label`
   font-size: 12px;
-  color: #a1aeff;
+  color: #95a5a6;
   padding: 5px 10px 5px 10px;
   margin-bottom: 15px;
   `
@@ -100,7 +101,7 @@ export const Input = styled.input`
   }
 
   &:disabled{
-    color: #a1aeff;
+    color: #95a5a6;
     border: none;
     font-size: 13px;
   }
@@ -130,7 +131,7 @@ export const SuccessMsg = styled.span`
   display: flex;
   width: 100%;
   align-items: center;
-  color: #3ae374;
+  color: #2ecc71;
   font-size: 12px;
 `
 
@@ -166,7 +167,7 @@ export const Button = styled.button`
     opacity: 0.9;
   }
   &:disabled{
-    opacity: 0.9;
+    opacity: 0.7;
     cursor: default;
   }
 `
@@ -195,6 +196,10 @@ export const DeleteButton = styled.button`
   &:hover{
     opacity: 0.9;
   }
+  &:disabled{
+    opacity: 0.7;
+    cursor: default;
+  }
 `
 
 export const CloseButton = styled.button`
@@ -215,8 +220,28 @@ export const CloseButton = styled.button`
   outline: none;
   cursor: pointer;
   padding: 0px;
+
   &:hover{
     opacity: 0.9;
   }
 `
 
+export const EmpAvatar = styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 43px;
+  width: 43px;
+  margin-right: 10px; 
+  border-radius: 100%;
+  background: -webkit-linear-gradient(to bottom, #396afc, #2948ff);
+  background: linear-gradient(to bottom, #396afc, #2948ff);
+
+  h1{
+    font-weight: bolder;
+    color: #fff;
+    font-size: 18px;
+    margin: 0px;
+    text-transform: uppercase;
+  }
+`

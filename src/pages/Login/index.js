@@ -27,8 +27,9 @@ export default function Home({ history }) {
     const user_password = inputPassword;
 
     await api.post('/login', { user_login, user_password }).then(response => {
-      const { token } = response.data;
+      const { token, user } = response.data;
       localStorage.setItem('token', token);
+      localStorage.setItem('id', user.user_id);
       setIsLoading(false);
       history.push('/home');
     })
